@@ -13,7 +13,7 @@ import MySlider from "./component/MySlider";
 function App() {
   return (
     <>
-      <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
+      <div className="bg-no-repeat bg-cover overflow-hidden bg-slate-800">
         <Header />
         <Banner />
         <Nav />
