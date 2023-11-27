@@ -2,6 +2,7 @@ import React from "react";
 // images
 
 import Logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,17 +15,19 @@ const Header = () => {
             <img src={Logo} alt="logo" />
           </a> */}
 
-          <a
+          <Link
             className="text-accent text-3xl font-primary font-semibold leading-9 uppercase"
-            href=""
+            to={"/"}
           >
             Tanjil <br /> <span className="text-white uppercase">Mahmud</span>
-          </a>
+          </Link>
 
           {/* button */}
-          <button className="btn btn-sm md:btn-md lg:btn-lg">
-            Download CV
-          </button>
+          <Link to={"/resume"}>
+            <button className="btn btn-sm md:btn-md lg:btn-lg">
+              Download CV
+            </button>
+          </Link>
         </div>
       </div>
     </div>

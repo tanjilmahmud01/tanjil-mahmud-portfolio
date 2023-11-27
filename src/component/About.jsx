@@ -9,6 +9,8 @@ import { motion } from "framer-motion";
 //variant
 import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
+import { Helmet } from "react-helmet-async";
+import Layout from "../layout/Layout";
 
 const About = () => {
   //   Number between 0 and 1 indicating the percentage that should be visible before triggering.
