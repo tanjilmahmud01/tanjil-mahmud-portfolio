@@ -6,7 +6,6 @@ const Layout = ({ children, title }) => {
   console.log("in the layout: ", title);
   return (
     <div>
-      <Header />
       <Helmet>
         <title>{title}</title>
       </Helmet>

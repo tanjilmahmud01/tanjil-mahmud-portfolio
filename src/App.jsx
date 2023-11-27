@@ -9,17 +9,21 @@ import Services from "./component/Services";
 import Work from "./component/Work";
 import Contact from "./component/Contact";
 import MySlider from "./component/MySlider";
-import { Route, Routes } from "react-router-dom";
-import Resume from "./component/Resume";
-import Homepage from "./component/Homepage";
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Homepage />}></Route>
-        <Route path="/resume" element={<Resume />}></Route>
-      </Routes>
+      <div className="bg-no-repeat bg-cover overflow-hidden bg-slate-800">
+        <Header />
+        <Banner />
+        <Nav />
+        <About />
+        <MySlider />
+        <Services />
+        <Work />
+        <Contact />
+        <div className="h-[4000px]"></div>
+      </div>
     </>
   );
 }

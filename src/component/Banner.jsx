@@ -17,7 +17,7 @@ const Banner = () => {
   return (
     <Layout title={"Tanjil Mahmud"}>
       <section
-        className="min-h-[85vh] lg:min-h-[85vh] flex items-center border-2 border-orange-600"
+        className="min-h-[85vh] lg:min-h-[85vh] flex items-center"
         id="home"
       >
         <Helmet>
