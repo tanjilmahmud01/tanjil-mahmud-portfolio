@@ -1,6 +1,6 @@
 import React from "react";
 // images
-import image from "../assets/pro-pic-2.jpg";
+import image from "../assets/pro-pic-4.jpg";
 // icons
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 //type animation
